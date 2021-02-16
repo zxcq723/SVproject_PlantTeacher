@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <!--Tip1Fragment 레이아웃-->
+    <ImageView
+        android:id="@+id/tip1_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bacterial_spot"
+        />
+    <Button
+        android:id="@+id/tip1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종류1"
+        />
+    <ImageView
+        android:id="@+id/tip2_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/late_blight"
+        />
+    <Button
+        android:id="@+id/tip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종류2"
+        />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="back"
+        />
+
+</LinearLayout>

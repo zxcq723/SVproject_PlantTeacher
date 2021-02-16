@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <!--TipExplainFragment 레이아웃-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="병명"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:text="내용"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="back"
+        android:layout_below="@+id/contents"
+        />
+
+</RelativeLayout>

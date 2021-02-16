@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <!--LogInActivity 레이아웃-->
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/id_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Please Input ID here"
+        android:textSize="10dp"
+        android:layout_toRightOf="@+id/id"
+        />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password: "
+        android:layout_below="@id/id"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="10dp"
+        android:layout_toRightOf="@+id/password"
+        android:layout_below="@+id/id_input"
+        />
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_below="@+id/password"
+        />
+
+
+</RelativeLayout>

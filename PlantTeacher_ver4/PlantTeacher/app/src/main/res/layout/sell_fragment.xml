@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <!--SellFragment 레이아웃-->
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/product"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="110dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:text="product name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="purchase"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+    />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="back"
+        />
+
+</LinearLayout>
